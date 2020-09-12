@@ -1,0 +1,36 @@
+#sponsor {
+    font-size: 24px;
+}
+#title {
+    font-size: 80px;
+    font-family: "Helevetica", Times, serif;
+}
+#logo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 80px;
+}
+.intro {
+    background-color: #e5e5e5;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+.footer {
+    margin: 30px;
+    background-color: #e5e5e5;
+    font-size: 20px;
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+.footer > li{
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Lato, Helvetica, sans-serif;
+}
+.soc_media {
+    width: 20%;
+    margin: 10px auto;
+}
