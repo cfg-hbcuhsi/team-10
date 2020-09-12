@@ -10,6 +10,11 @@ class College extends Component {
         this.state = {
         }
     }
+
+    handleWebOpen(link) {
+        window.open(link);
+    }
+
     render() {
         return (
             <MDBContainer className="container-spacing">
@@ -23,9 +28,9 @@ class College extends Component {
                 </MDBCol>
                 <MDBCol>
                     <MDBRow>
-                        <MDBBtn outline color="info">Scholarships</MDBBtn>
-                        <MDBBtn outline color="info">SAT Prep</MDBBtn>
-                        <MDBBtn outline color="info">Find my College</MDBBtn>
+                        <MDBBtn outline onClick={() => this.handleWebOpen('https://www.careeronestop.org/toolkit/training/find-scholarships.aspx')} color="info">Scholarships</MDBBtn>
+                        <MDBBtn outline onClick={() => this.handleWebOpen('https://learn.khanacademy.org/osp-landing-page/?utm_source=cbcta-osp&utm_medium=cb418-cb&utm_campaign=osp-lp')} color="info">SAT Prep</MDBBtn>
+                        <MDBBtn outline onClick={() => this.handleWebOpen('https://www.mymajors.com/find-a-college/')} color="info">Find my College</MDBBtn>
                     </MDBRow>
                 </MDBCol>
                 </MDBRow>
