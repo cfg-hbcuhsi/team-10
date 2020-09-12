@@ -5,6 +5,7 @@ import Home from '../components/Home Screen/Home';
 import College from '../components/College Screen/College';
 import AlternativeCareers from '../components/Alternative Screen/AlternativeCareers';
 import SelfEducation from '../components/Self Education Screen/SelfEducation';
+import About from '../components/About/About';
 
 export default class Routes extends Component {
 
@@ -20,6 +21,8 @@ export default class Routes extends Component {
                     <Route path="/alternative-careers" component={AlternativeCareers}>
                     </Route>
                     <Route path="/self-education" component={SelfEducation}>
+                    </Route>
+                    <Route path="/about" component={About}>
                     </Route>
                 </Switch>
             </Router>

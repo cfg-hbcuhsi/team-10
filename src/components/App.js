@@ -23,6 +23,7 @@ class App extends Component {
                 <Button type="submit" variant="outline-primary" onClick={() => history.push("/college")}>College</Button>
                 <Button type="submit" variant="outline-primary" onClick={() => history.push("/alternative-careers")}>Alternative</Button>
                 <Button type="submit" variant="outline-primary" onClick={() => history.push("/self-education")}>Self Education</Button>
+                <Button type="submit" variant="outline-primary" onClick={() => history.push("/about")}>About Us</Button>
               </div>
              <Routes/>
             </div>
