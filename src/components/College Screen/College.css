@@ -27,3 +27,9 @@
     color: #ca315f;
     text-align: center;
 }
+
+.widthLim {
+    max-width: 450px;
+    max-height: 200px;
+    margin: 10px;
+  }
