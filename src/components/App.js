@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import Routes from './Routes';
 import history from './history';
-import { Button } from 'react-bootstrap';
+import { MDBBtn } from 'mdbreact';
 
 class App extends Component {
 
@@ -19,11 +19,11 @@ class App extends Component {
         return (
             <div>
               <div>
-                <Button type="submit" variant="outline-primary" onClick={() => history.push("/")}>Home</Button>
-                <Button type="submit" variant="outline-primary" onClick={() => history.push("/college")}>College</Button>
-                <Button type="submit" variant="outline-primary" onClick={() => history.push("/alternative-careers")}>Alternative</Button>
-                <Button type="submit" variant="outline-primary" onClick={() => history.push("/self-education")}>Self Education</Button>
-                <Button type="submit" variant="outline-primary" onClick={() => history.push("/about")}>About Us</Button>
+                <MDBBtn outline color="primary" type="submit" onClick={() => history.push("/")}>Home</MDBBtn>
+                <MDBBtn outline color="primary" type="submit"  onClick={() => history.push("/college")}>College</MDBBtn>
+                <MDBBtn outline color="primary" type="submit"  onClick={() => history.push("/alternative-careers")}>Alternative</MDBBtn>
+                <MDBBtn outline color="primary" type="submit" onClick={() => history.push("/self-education")}>Self Education</MDBBtn>
+                <MDBBtn outline color="primary" type="submit" onClick={() => history.push("/about")}>About Us</MDBBtn>
               </div>
              <Routes/>
             </div>
