@@ -21,9 +21,13 @@ class App extends Component {
             <div>
               <NavBar/>
               <div>
+<<<<<<< HEAD
                 <MDBBtn outline color="primary" type="submit"  onClick={() => history.push("/college")}>College</MDBBtn>
                 <MDBBtn outline color="primary" type="submit"  onClick={() => history.push("/alternative-careers")}>Alternative</MDBBtn>
                 <MDBBtn outline color="primary" type="submit" onClick={() => history.push("/self-education")}>Self Education</MDBBtn>
+=======
+                <MDBBtn outline color="primary" type="submit" onClick={() => history.push("/")}>Home</MDBBtn>
+>>>>>>> 6e5806f797e54c165fff4653c4c20a670f60cd2f
                 <MDBBtn outline color="primary" type="submit" onClick={() => history.push("/about")}>About Us</MDBBtn>
               </div>
              <Routes/>
