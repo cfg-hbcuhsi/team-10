@@ -1,3 +1,7 @@
+.widthLim {
+    max-width: 450px;
+    min-height: 500px;
+}
 .self-main-text {
     font-style: normal;
     font-weight: normal;
