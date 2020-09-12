@@ -9,7 +9,7 @@ class HoverButtons extends React.Component {
         <MDBRow>
           <MDBCol md="4">
             <MDBView hover onClick={() => history.push("/college")}>
-              <img src={require('./college.jpg')} 
+              <img src={require('../../assets/college.jpg')} 
               className="img-fluid" 
               alt=""  
                />
@@ -20,7 +20,7 @@ class HoverButtons extends React.Component {
           </MDBCol>
           <MDBCol md="4">
             <MDBView hover onClick={() => history.push("/alternative-careers")}>
-              <img src={require('./careers.jpg')} className="img-fluid" alt="" />
+              <img src={require('../../assets/careers.jpg')} className="img-fluid" alt="" />
               <MDBMask className="flex-center" overlay="blue-strong">
                 <h1 className="white-text">Alternative Careers</h1>
               </MDBMask>
@@ -29,7 +29,7 @@ class HoverButtons extends React.Component {
           <MDBCol md="4">
             <MDBView hover onClick={() => history.push("/self-education")}>
               <img
-                src={require('./self_education.jpg')}
+                src={require('../../assets/self_education.jpg')}
                 className="img-fluid"
                 alt=""
                 
