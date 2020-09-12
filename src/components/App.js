@@ -20,7 +20,7 @@ class App extends Component {
         return (
             <div>
               <NavBar/>
-             <Routes/>
+              <Routes/>
             </div>
         );
     }
