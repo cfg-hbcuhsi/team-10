@@ -19,3 +19,9 @@
     height: 30px;
     padding-top: 6px;
 }
+
+.widthLim {
+    max-width: 450px;
+    max-height: 200px;
+    margin: 10px;
+  }
