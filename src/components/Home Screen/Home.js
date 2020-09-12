@@ -12,7 +12,9 @@ class Home extends Component {
     return (
        <div className="App">
            <div id = "sponsor"><strong>Sponsor by:</strong></div>
-           <img id = "logo" src = "https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/1_gg7rrigs/def_height/720/def_width/720/version/100011/type/2/q/100" alt = "Eat.Learn.Play logo"></img>
+           <a href="https://eatlearnplay.org/">
+            <img id = "logo" src = "https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/1_gg7rrigs/def_height/720/def_width/720/version/100011/type/2/q/100" alt = "Eat.Learn.Play logo"></img>
+           </a>
            <p id = "title">Look. Find. Educate.</p>
            <p class = "intro"> 
                 This platform is used for students entering high school to see the different options they have after they graduate. 
