@@ -14,7 +14,7 @@ export default class Routes extends Component {
             // This component manages the paths to the different screens
             <Router history={history}>
                 <Switch>
-                    <Route path="/" exact component={Home}>
+                    <Route path="/" exact component={Home}> 
                     </Route>
                     <Route path="/college" component={College}>
                     </Route>
