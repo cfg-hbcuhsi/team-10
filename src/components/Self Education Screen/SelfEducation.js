@@ -12,6 +12,7 @@ class SelfEducation extends Component {
     render() {
         return (
             <MDBContainer>
+              <MDBRow><p className="self-main-text">Self Education</p></MDBRow>
               <MDBRow>
                 <MDBCol>
                 <MDBCard className="widthLim" style={{ height: "80vh" }}>
