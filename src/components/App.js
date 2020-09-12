@@ -11,9 +11,7 @@ class App extends Component {
         }
     }
 
-    componentDidMount() {
-      // Call any API here
-    }
+
     render() {
         return (
             <div>
