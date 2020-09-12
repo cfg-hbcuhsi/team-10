@@ -1,0 +1,21 @@
+.interest {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    background: linear-gradient(to right,rgba(9, 9, 121, 1), rgba(9, 86, 139, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-spacing {
+    padding-top: 10px;
+    
+}
+
+.filter-btn {
+    align-self: center;
+    background: transparent;
+    border: none !important;
+    height: 30px;
+    padding-top: 6px;
+}
