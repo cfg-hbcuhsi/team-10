@@ -1,5 +1,4 @@
 .interest {
-    padding-top: 20px;
     font-weight: bold;
     font-size: 24px;
     background: linear-gradient(to right,rgba(9, 9, 121, 1), rgba(9, 86, 139, 1));
@@ -17,5 +16,14 @@
     background: transparent;
     border: none !important;
     height: 30px;
-    padding-top: 6px;
+    padding-bottom: 20px;
+}
+
+.college-main-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 80px;
+    color: #ca315f;
+    text-align: center;
 }

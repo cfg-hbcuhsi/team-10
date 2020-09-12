@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { MDBContainer, MDBRow } from 'mdbreact';
+import './SelfEducation.css'
 
 class SelfEducation extends Component {
 
@@ -9,9 +11,9 @@ class SelfEducation extends Component {
     }
     render() {
         return (
-            <div>
-                <p>Self Education View</p>
-            </div>
+            <MDBContainer>
+                <MDBRow><p className="self-main-text">Self Education</p></MDBRow>
+            </MDBContainer>
         )
     }
 }

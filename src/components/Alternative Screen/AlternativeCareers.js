@@ -18,6 +18,7 @@ class AlternativeCareers extends Component {
     render() {
         return (
             <MDBContainer>
+              <MDBRow><p className="alt-main-text">Alternative Careers</p></MDBRow>
               <MDBRow>
                 <MDBCol>
                 <MDBCard className="widthLim" style={{ height: "80vh" }}>
