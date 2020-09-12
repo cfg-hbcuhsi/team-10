@@ -3,6 +3,7 @@ import './App.css';
 import Routes from './Routes';
 import history from './history';
 import { MDBBtn } from 'mdbreact';
+import NavBar from './NavBar';
 
 class App extends Component {
 
@@ -18,8 +19,8 @@ class App extends Component {
     render() {
         return (
             <div>
+              <NavBar/>
               <div>
-                <MDBBtn outline color="primary" type="submit" onClick={() => history.push("/")}>Home</MDBBtn>
                 <MDBBtn outline color="primary" type="submit"  onClick={() => history.push("/college")}>College</MDBBtn>
                 <MDBBtn outline color="primary" type="submit"  onClick={() => history.push("/alternative-careers")}>Alternative</MDBBtn>
                 <MDBBtn outline color="primary" type="submit" onClick={() => history.push("/self-education")}>Self Education</MDBBtn>

@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+.navBtn {
+  align-self: center;
+  background: transparent;
+  border: none !important;
+  padding-top: 10px;
+  color: white;
+}
+
+.navSpacing {
+  padding-right: 10px;
+}
+
+.nLogo {
+  align-self: center;
+  width: 80%;
+  height: 140; 
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
