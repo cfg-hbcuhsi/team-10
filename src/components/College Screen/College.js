@@ -98,7 +98,7 @@ class College extends Component {
                         <MDBCardTitle>Liberal Arts</MDBCardTitle>
                         <MDBCardImage className="img-fluid" src="https://oglethorpe.edu/wp-content/uploads/2017/05/cic-liberal-arts-banner.jpg" waves />
                         <MDBCardText>
-                        I got nothin
+                       For philosofy, literature and social sciences related fields.
                         </MDBCardText>
                       </MDBCardBody>
                     </MDBCard>

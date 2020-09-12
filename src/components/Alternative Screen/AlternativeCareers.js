@@ -28,7 +28,7 @@ class AlternativeCareers extends Component {
                     <MDBCardText>
                       There's more to the military than just combat roles. Click the button to learn more about military branches, the ASVAB, and military career paths.
                     </MDBCardText>
-                    <MDBBtn href="#">Show me more!</MDBBtn>
+                    <MDBBtn href="https://www.military.com/join-armed-forces/military-jobs">Show me more!</MDBBtn>
                   </MDBCardBody>
                 </MDBCard>
               </MDBCol>
@@ -40,7 +40,7 @@ class AlternativeCareers extends Component {
                     <MDBCardText>
                       Trades will always be in demand. If you like working with your hands, click the button to learn more about tradeschools, certifications, and apprenticeships
                     </MDBCardText>
-                    <MDBBtn href="#">Show me more!</MDBBtn>
+                    <MDBBtn href="http://www.w3education.org/career_guide/technical_careers/technical-career-guide.php">Show me more!</MDBBtn>
                   </MDBCardBody>
                 </MDBCard>
               </MDBCol>
@@ -52,7 +52,7 @@ class AlternativeCareers extends Component {
                     <MDBCardText>
                     Even just starting off working in retail or food can get you developing life-long skills. Click the button to learn more about local job ops, interviews, and resume tips.
                     </MDBCardText>
-                    <MDBBtn href="#">Show me more!</MDBBtn>
+                    <MDBBtn href="https://www.indeed.com/q-Entry-Level-Information-Technology-jobs.html?vjk=cae1836ad3e3c2d3">Show me more!</MDBBtn>
                   </MDBCardBody>
                 </MDBCard>
               </MDBCol>
