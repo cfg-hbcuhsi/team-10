@@ -21,12 +21,11 @@ function About(props) {
             <MDBModalHeader toggle={props.handleClose}>
                 
                 <div className="popup-header">
+                    <img src = {logo} alt= {"logo"}/>
                     <h1>About Us</h1>
                 </div>
             </MDBModalHeader>
             <MDBModalBody>
-            <img src = {logo} alt= {"logo"}/>
-            
                 <p>
                     Eat. Learn. Play. seeks to unleash the potential of every child and pave the way for amazing kids and bright futures. 
                     <br/><br/>
