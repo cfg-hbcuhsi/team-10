@@ -15,37 +15,37 @@ class SelfEducation extends Component {
               <MDBRow>
                 <MDBCol>
                 <MDBCard className="widthLim" style={{ height: "80vh" }}>
-                <MDBCardImage className="img-fluid" src="https://comps.canstockphoto.com/military-uniform-soldier-row-pictures_csp6357868.jpg" waves />
+                <MDBCardImage className="img-fluid" src="https://www.slashgear.com/wp-content/uploads/2020/04/coursera_main.jpg" waves />
                   <MDBCardBody>
-                    <MDBCardTitle>Military</MDBCardTitle>
+                    <MDBCardTitle>Coursera</MDBCardTitle>
                     <MDBCardText>
-                      There's more to the military than just combat roles. Click the button to learn more about military branches, the ASVAB, and military career paths.
+                      Earn certificates, or even degrees through self-paced courses here on Coursera!
                     </MDBCardText>
-                    <MDBBtn href="#">Show me more!</MDBBtn>
+                    <MDBBtn href="https://www.coursera.org/">Show me more!</MDBBtn>
                   </MDBCardBody>
                 </MDBCard>
               </MDBCol>
               <MDBCol>
                 <MDBCard className="widthLim" style={{ height: "80vh" }}>
-                <MDBCardImage className="img-fluid" src="https://ak.picdn.net/offset/photos/577e8efcba6f6bfc1a487732/medium/offset_391828.jpg" waves />
+                <MDBCardImage className="img-fluid" src="https://about.udemy.com/wp-content/uploads/2016/07/about-default.png" waves />
                   <MDBCardBody>
-                    <MDBCardTitle>Technical Careers</MDBCardTitle>
+                    <MDBCardTitle>Udemy</MDBCardTitle>
                     <MDBCardText>
-                      Trades will always be in demand. If you like working with your hands, click the button to learn more about tradeschools, certifications, and apprenticeships
+                      A lot like Coursera, but with frequent deals. Many classes wind up on heavy discounts here on Udemy.
                     </MDBCardText>
-                    <MDBBtn href="#">Show me more!</MDBBtn>
+                    <MDBBtn href="https://www.udemy.com/">Show me more!</MDBBtn>
                   </MDBCardBody>
                 </MDBCard>
               </MDBCol>
               <MDBCol>
                 <MDBCard className="widthLim" style={{ height: "80vh" }}>
-                <MDBCardImage className="img-fluid" src="https://media.gettyimages.com/photos/barista-taking-order-from-customer-cafe-picture-id1060887054?s=612x612" waves />
+                <MDBCardImage className="img-fluid" src="https://news.harvard.edu/wp-content/uploads/2012/05/edx_logo_col_rgb_final.jpg" waves />
                   <MDBCardBody>
-                    <MDBCardTitle>Entry Level Jobs</MDBCardTitle>
+                    <MDBCardTitle>MIT edx</MDBCardTitle>
                     <MDBCardText>
-                    Even just starting off working in retail or food can get you developing life-long skills. Click the button to learn more about local job ops, interviews, and resume tips.
+                    Take self-paced, online courses in various field from the prestigious MIT and Harvard!
                     </MDBCardText>
-                    <MDBBtn href="#">Show me more!</MDBBtn>
+                    <MDBBtn href="https://www.edx.org/school/mitx">Show me more!</MDBBtn>
                   </MDBCardBody>
                 </MDBCard>
               </MDBCol>
