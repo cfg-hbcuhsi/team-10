@@ -92,7 +92,7 @@ class College extends Component {
                       <MDBCardBody>
                         <MDBCardTitle>Liberal Arts</MDBCardTitle>
                         <MDBCardText>
-                        I got nothin
+                       For philosofy, literature and social sciences related fields.
                         </MDBCardText>
                       </MDBCardBody>
                     </MDBCard>
