@@ -36,7 +36,7 @@ class College extends Component {
                 </MDBCol>
                 </MDBRow>
                 <MDBRow>
-                    {/* Filter options */}
+                    {/* Add Filter options HERE */}
                 </MDBRow>
                 <MDBRow>
                     <MDBCol>
@@ -44,6 +44,7 @@ class College extends Component {
         
                         <MDBCardBody>
                           <MDBCardTitle>Computer Science</MDBCardTitle>
+                          <MDBCardImage className="img-fluid" src="https://marj3.azureedge.net/wp-content/uploads/2018/08/computer-science-header.jpg" waves />
                           <MDBCardText>
                           For tech lovers. Learn what makes computers go and how they can be used to better society.
                           </MDBCardText>
@@ -55,6 +56,8 @@ class College extends Component {
       
                         <MDBCardBody>
                           <MDBCardTitle>Physics</MDBCardTitle>
+                          <MDBCardImage className="img-fluid" src="https://images.theconversation.com/files/191827/original/file-20171025-25516-g7rtyl.jpg?ixlib=rb-1.1.0&rect=0%2C70%2C7875%2C5667&q=45&auto=format&w=926&fit=clip" waves />
+                          <MDBCardText></MDBCardText>
                           <MDBCardText>
                           Learn the math of the world, and how you can make a living with it.
                           </MDBCardText>
@@ -66,6 +69,7 @@ class College extends Component {
       
                         <MDBCardBody>
                           <MDBCardTitle>Music Education</MDBCardTitle>
+                          <MDBCardImage className="img-fluid" src="https://images2.minutemediacdn.com/image/upload/c_crop,h_1190,w_2120,x_0,y_0/f_auto,q_auto,w_1100/v1554933625/shape/mentalfloss/52912-istock-523871055.jpg" waves />
                           <MDBCardText>
                           Passionate about music? Learn to share that passion with generations of students as you prepare to be a music teacher.
                           </MDBCardText>
@@ -79,6 +83,7 @@ class College extends Component {
       
                       <MDBCardBody>
                         <MDBCardTitle>Chemistry</MDBCardTitle>
+                        <MDBCardImage className="img-fluid" src="https://images.ctfassets.net/cnu0m8re1exe/1v6Kh7bIsgVU4PA1Qi44bb/3e8e11c131620bb0080266a01a8cf36c/shutterstock_127915121.jpg?w=650&h=433&fit=fill" waves />
                         <MDBCardText>
                         A field where you learn of the various types of matter, and why it matters.
                         </MDBCardText>
@@ -91,6 +96,7 @@ class College extends Component {
                     
                       <MDBCardBody>
                         <MDBCardTitle>Liberal Arts</MDBCardTitle>
+                        <MDBCardImage className="img-fluid" src="https://oglethorpe.edu/wp-content/uploads/2017/05/cic-liberal-arts-banner.jpg" waves />
                         <MDBCardText>
                         I got nothin
                         </MDBCardText>
@@ -103,6 +109,7 @@ class College extends Component {
       
                       <MDBCardBody>
                         <MDBCardTitle>English</MDBCardTitle>
+                        <MDBCardImage className="img-fluid" src="https://images1.content-hcs.com/commimg/myhotcourses/blog/post/myhc_24232.jpg" waves />
                         <MDBCardText>
                         Reading, writing, and rhetoric through the ages.
                         </MDBCardText>
